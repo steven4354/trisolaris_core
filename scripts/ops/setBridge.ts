@@ -8,7 +8,9 @@ import {
     triMakerAddress,
     wnearAddress,
     wbtcAddress,
-    usdcAddress
+    triAddress,
+    usdtAddress,
+    usdcAddress,
 } from '../constants';
 
 async function main(): Promise<void> {
@@ -19,7 +21,7 @@ async function main(): Promise<void> {
     // We get the contract to deploy
 
     const [_, deployer] = await ethers.getSigners();
-    console.log(`Deploying contracts with ${deployer.address}`);
+    console.log(`Deploying transactions with ${deployer.address}`);
 
     const balance = await deployer.getBalance();
     console.log(`Account balance: ${balance.toString()}`)
@@ -29,9 +31,9 @@ async function main(): Promise<void> {
     const triMaker = TriMaker.attach(triMakerAddress)
     console.log(`Maker deployed at: ${triMaker.address}`)
     
-    const tx = await triMaker.convert(usdcAddress, wnearAddress)
+    const tx = await triMaker.connect(deployer).setBridge(usdcAddress, wnearAddress)
     const receipt = await tx.wait()
-    console.log(receipt.logs)
+    console.log(receipt)
 }
 
 // We recommend this pattern to be able to use async/await everywhere
