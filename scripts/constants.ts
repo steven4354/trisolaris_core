@@ -18,3 +18,4 @@ export const donRecepientAddress = "0xB1B0831466E6432843a27aF36924Df9E56E6C649";
 export const chainRecepientAddress = "0x504680C453F458F2f832cf66744C211b148BA8A6";
 export const dfRecepientAddress = "0x49D8B1389df580B1602Ae385D32b9c5A7Ceb2e25";
 export const kRecepientAddress = "0x464bCBD80Ab3Ec89A93F1667DafB682d14634A5e";
+export const specialistAddress = "0x7d479275bCa2795394e42e07a2EE2d27c96F69Ca";
