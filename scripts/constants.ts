@@ -12,6 +12,9 @@ export const usdtAddress = "0x4988a896b1227218e4A686fdE5EabdcAbd91571f";
 export const wethAddress = "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB";
 export const wbtcAddress = "0xF4eB217Ba2454613b15dBdea6e5f22276410e89e";
 export const wnearAddress = "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d";
+export const atLunaAddress = "0xC4bdd27c33ec7daa6fcfd8532ddB524Bf4038096";
+export const atUstAddress = "0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC";
+export const aShibamAddress = "0x48687fB162A735a3FedD47a98Fcbf58Be3ed4538";
 export const zeroAddress = "0x0000000000000000000000000000000000000000";
 
 export const babooRecepientAddress = "0x7F188C75E887454f5f47bDF76fe2Fa048985930F";
