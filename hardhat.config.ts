@@ -2,6 +2,7 @@ import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
+import '@symblox/hardhat-abi-gen';
 
 import "./tasks/accounts";
 import "./tasks/clean";

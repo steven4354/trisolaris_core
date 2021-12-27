@@ -1270,6 +1270,7 @@ __metadata:
     "@nomiclabs/hardhat-etherscan": ^2.1.3
     "@nomiclabs/hardhat-waffle": ^2.0.1
     "@openzeppelin/contracts": ^3.3.0
+    "@symblox/hardhat-abi-gen": ^0.2.0
     "@typechain/ethers-v5": ^7.0.1
     "@typechain/hardhat": ^2.3.0
     "@types/chai": ^4.2.21
@@ -1479,6 +1480,15 @@ __metadata:
   dependencies:
     antlr4ts: ^0.5.0-alpha.4
   checksum: bfdd8ec7f7b88f3cc75e333e03202cde5e5dacbec7f00612f22dec5e22b0995713637872ce202064d182bae56a274fcb2ca8715ad5482af5e8b38728a0216cf7
+  languageName: node
+  linkType: hard
+
+"@symblox/hardhat-abi-gen@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@symblox/hardhat-abi-gen@npm:0.2.0"
+  peerDependencies:
+    hardhat: ^2.0.0
+  checksum: 67058382fcae8c5065c544e16ed4e2a4b5fb5b90bc711c46145702a00033d99ea4cdf0301abcd3c3ffdda0a948c8b0ae69567a10d05e37fa9b2df28f8146f749
   languageName: node
   linkType: hard
 
